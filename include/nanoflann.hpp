@@ -2170,6 +2170,11 @@ class KDTreeSingleIndexDynamicAdaptor
    public:
     Distance distance;
 
+    size_t TreeSize() const
+    {
+        return this->pointCount;
+    }
+
     /**
      * KDTree constructor
      *
